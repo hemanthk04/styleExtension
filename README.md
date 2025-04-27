@@ -30,6 +30,6 @@ Browser Extension API
 Feel free to fork the repository, make improvements, and submit pull requests. Contributions are welcome!
 
 ## License
-This project is licensed under the MIT License - see the [LICENCE](LICENCE) file for details.
+This project is licensed under the MIT License - see the [LICENCE](LICENSE) file for details.
 
 
