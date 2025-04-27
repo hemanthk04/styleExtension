@@ -4,18 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page Inspector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
   <style>
-  body { font-family: Arial, sans-serif; padding: 16px; width: 320px; border-radius: 16px; }
-  button { margin-top: 10px; padding: 8px 15px; width: 100%; background-color: #a1ffa5; color: #000; border: none; border-radius: 16px; }
-  button:hover { background-color: #49f851; }
-  a { display: block; margin-top: 16px; text-align: center; color: #000; text-decoration: underline; }
+  body { font-family: DM Sans, sans-serif; font-weight: 500; text-align: left; background-color: #fff; padding: 16px; width: 320px; border-radius: 16px; color: #222; }
+  button { font-family: DM Sans, sans-serif; font-weight: 600; margin-top: 10px; padding: 12px 16px; width: 100%; background-color: #83FF75; color: #000; border: none; border-radius: 28px; }
+  button:hover { scale: 1.05; }
+  a { display: block; margin-top: 16px; text-align: center; color: #222; text-decoration: underline; }
 </style>
 
   </style>
 </head>
 <body>
-  <h3>Page Inspector</h3>
-  <p>Hover over any element on the page to see its font and color.</p>
+  <h2>Page Inspector</h2>
+  <p>Quickly inspect any webpage by hovering over text to see the font and color being used. This tool helps designers and developers easily identify typography and color choices without needing to open the developer tools.</p>
   <button id="activate">Activate Hover Tool</button>
   <a href="https://github.com/Hemanthk04">Made by Hemanthk04</a>
   <script src="popup.js"></script>
